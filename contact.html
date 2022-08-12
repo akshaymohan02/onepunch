@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <title>Caped Baldy</title>
+        <link rel="shortcut icon" href="one.ico"/>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+            body
+            {
+                background-image: url("punch4.jpg");
+                background-size: cover;
+                font-family: 'Playfair Display', serif;
+                color: white;
+            text-shadow: 1px 5px 6px rgba(209, 209, 0, 0.664);
+             }
+              
+            ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color:black;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+       text-align: center;
+       color: white;
+      padding: 16px;
+      text-decoration: none;
+     
+    }
+    
+    li a:hover {
+      background-color: rgba(182, 23, 55, 0.568);}
+
+      [type=email]:invalid
+        {
+            background-color:rgb(207, 126, 142);
+        }
+        [type=email]:valid
+        {
+            background-color:rgb(168, 219, 168);
+        }
+        [type=email] {color:white;font: size 10pt;}
+        form
+        {
+            margin-top: 40px;
+            margin-left: 30px;
+            margin-right: 690px;         
+           
+
+        }
+    
+    
+            </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="main.html">About</a></li>
+                    <li><a href="phil.html">Philosophy</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form action="http://www.google.com/submit">
+
+            <label for="type">You are a: </label>
+        <input list="type-list" id="type" name="type" />
+        
+        <datalist id="type-list">
+            <option value="Hero">
+            <option value="Civilian">
+            <option value="Monster">
+            <option value="Cyborg">
+            <option value="Alien">
+            <option value="Non-Human">
+
+        </datalist>
+        
+        <fieldset>
+            <legend>Reason For Contact:</legend>
+            Need Help<input type="checkbox">
+            Report something<input type=checkbox>
+            Challenge/Fight<input type=checkbox>
+            Other<input type=checkbox>
+        </fieldset>
+        <fieldset>
+            <legend>Details</legend>
+            <textarea rows=20 cols=80 required></textarea>
+            
+        </fieldset>
+        
+        <fieldset >
+                <legend>Your Email</legend>
+                   <input type="email" required style="color: black;">
+            </fieldset>
+        
+        <input type=submit>
+        
+        </form>
+        
+        
+    </body>
+    </html>
+    
